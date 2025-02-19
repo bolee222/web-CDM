@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Thomson-Minimal Hugo Portfolio Temaplate</title>
-    <link>http://localhost:1313/thomson/examplesite/about/</link>
-    <description>Recent content in About on Thomson-Minimal Hugo Portfolio Temaplate</description>
+    <title>About on UIC Culture and Design Management Major</title>
+    <link>//localhost:1313/about/</link>
+    <description>Recent content in About on UIC Culture and Design Management Major</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/thomson/examplesite/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

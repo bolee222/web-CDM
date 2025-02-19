@@ -1,10 +1,10 @@
 # default configuration
-baseURL = "https://demo.themefisher.com/thomson/examplesite/"
+baseURL = "/"
 languageCode = "en-us"
 theme = "thomson-hugo"
-title = "Thomson-Minimal Hugo Portfolio Temaplate"
+title = "UIC Culture and Design Management Major"
 summaryLength = "10"
-pagination.pagerSize = 4
+pagination.pagerSize = 10
 
 # css plugins
 [[params.plugins.css]]
@@ -45,24 +45,82 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "About"
+name = "About CDM"
 url = "about/"
 weight = 2
 
 [[menu.main]]
-name = "Blog"
-url = "blog/"
+parent = "About CDM"
+name = "Our Vision"
+url = "#/"
+weight = 1
+
+[[menu.main]]
+parent = "About CDM"
+name = "Curriculum"
+url = "#/"
+weight = 2
+
+[[menu.main]]
+parent = "About CDM"
+name = "Exchange Program"
+url = "#/"
+weight = 2
+
+[[menu.main]]
+parent = "About CDM"
+name = "Career Path"
+url = "#/"
+weight = 2
+
+[[menu.main]]
+name = "People"
+url = "people/"
+weight = 2
+
+[[menu.main]]
+parent = "People"
+name = "Faculty"
+url = "#/"
+weight = 1
+
+[[menu.main]]
+parent = "People"
+name = "Students"
+url = "#/"
+weight = 2
+
+[[menu.main]]
+parent = "People"
+name = "Student Council"
+url = "#/"
 weight = 3
 
 [[menu.main]]
-name = "Portfolio"
-url = "portfolio/"
+parent = "People"
+name = "Alumni"
+url = "#/"
 weight = 4
 
 [[menu.main]]
-name = "Contact"
-url = "contact/"
+name = "Research"
+url = "#/"
+weight = 3
+
+[[menu.main]]
+name = "CDM Show"
+url = "show/"
+weight = 4
+
+[[menu.main]]
+name = "News"
+url = "news/"
 weight = 5
+
+[[menu.main]]
+name = "FAQ"
+url = "faq/"
+weight = 6
 
 [[menu.main]]
 name = "Dropdown"
@@ -85,7 +143,7 @@ weight = 2
 # default parameters
 [params]
 home = "Home"
-logo = "images/logo.png"
+logo = "images/logo-s.png"
 # contact info
 mobile = "+880 2544 658 256"
 email = "steve.fruits@email.com"
@@ -98,7 +156,7 @@ google_analitycs_id = ""
 # contact form action 
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "Copyrighht &copy; 2020 a theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright © Culture and Design Management Major. All Rights Reserved "
 
 # preloader
 [params.preloader]

@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thomson-Minimal Hugo Portfolio Temaplate</title>
-    <link>http://localhost:1313/thomson/examplesite/</link>
-    <description>Recent content on Thomson-Minimal Hugo Portfolio Temaplate</description>
+    <title>UIC Culture and Design Management Major</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on UIC Culture and Design Management Major</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/thomson/examplesite/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amazon increase income 1.5 Million</title>
-      <link>http://localhost:1313/thomson/examplesite/blog/blog-post-1/</link>
+      <link>//localhost:1313/blog/blog-post-1/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/blog/blog-post-1/</guid>
+      <guid>//localhost:1313/blog/blog-post-1/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     <item>
       <title>Amazon increase income 1.5 Million</title>
-      <link>http://localhost:1313/thomson/examplesite/blog/blog-post-2/</link>
+      <link>//localhost:1313/blog/blog-post-2/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/blog/blog-post-2/</guid>
+      <guid>//localhost:1313/blog/blog-post-2/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     <item>
       <title>Amazon increase income 1.5 Million</title>
-      <link>http://localhost:1313/thomson/examplesite/blog/blog-post-3/</link>
+      <link>//localhost:1313/blog/blog-post-3/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/blog/blog-post-3/</guid>
+      <guid>//localhost:1313/blog/blog-post-3/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     <item>
       <title>Amazon increase income 1.5 Million</title>
-      <link>http://localhost:1313/thomson/examplesite/blog/blog-post-4/</link>
+      <link>//localhost:1313/blog/blog-post-4/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/blog/blog-post-4/</guid>
+      <guid>//localhost:1313/blog/blog-post-4/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     <item>
       <title>Amazon increase income 1.5 Million</title>
-      <link>http://localhost:1313/thomson/examplesite/blog/blog-post-5/</link>
+      <link>//localhost:1313/blog/blog-post-5/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/blog/blog-post-5/</guid>
+      <guid>//localhost:1313/blog/blog-post-5/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     <item>
       <title>Amazon increase income 1.5 Million</title>
-      <link>http://localhost:1313/thomson/examplesite/blog/blog-post-6/</link>
+      <link>//localhost:1313/blog/blog-post-6/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/blog/blog-post-6/</guid>
+      <guid>//localhost:1313/blog/blog-post-6/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     <item>
       <title>Agency web</title>
-      <link>http://localhost:1313/thomson/examplesite/portfolio/agency-web/</link>
+      <link>//localhost:1313/portfolio/agency-web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/portfolio/agency-web/</guid>
+      <guid>//localhost:1313/portfolio/agency-web/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eligendi fugiat ad cupiditate hic, eum debitis ipsum, quos non mollitia.</description>
     </item>
     <item>
       <title>Business</title>
-      <link>http://localhost:1313/thomson/examplesite/portfolio/business/</link>
+      <link>//localhost:1313/portfolio/business/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/portfolio/business/</guid>
+      <guid>//localhost:1313/portfolio/business/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eligendi fugiat ad cupiditate hic, eum debitis ipsum, quos non mollitia.</description>
     </item>
     <item>
       <title>Modern web</title>
-      <link>http://localhost:1313/thomson/examplesite/portfolio/modern-web/</link>
+      <link>//localhost:1313/portfolio/modern-web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/portfolio/modern-web/</guid>
+      <guid>//localhost:1313/portfolio/modern-web/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eligendi fugiat ad cupiditate hic, eum debitis ipsum, quos non mollitia.</description>
     </item>
     <item>
       <title>Painting</title>
-      <link>http://localhost:1313/thomson/examplesite/portfolio/painting/</link>
+      <link>//localhost:1313/portfolio/painting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/portfolio/painting/</guid>
+      <guid>//localhost:1313/portfolio/painting/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eligendi fugiat ad cupiditate hic, eum debitis ipsum, quos non mollitia.</description>
     </item>
     <item>
       <title>Portfolio</title>
-      <link>http://localhost:1313/thomson/examplesite/portfolio/portfolio/</link>
+      <link>//localhost:1313/portfolio/portfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/portfolio/portfolio/</guid>
+      <guid>//localhost:1313/portfolio/portfolio/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eligendi fugiat ad cupiditate hic, eum debitis ipsum, quos non mollitia.</description>
     </item>
     <item>
       <title>Web app</title>
-      <link>http://localhost:1313/thomson/examplesite/portfolio/web-app/</link>
+      <link>//localhost:1313/portfolio/web-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/portfolio/web-app/</guid>
+      <guid>//localhost:1313/portfolio/web-app/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eligendi fugiat ad cupiditate hic, eum debitis ipsum, quos non mollitia.</description>
     </item>
   </channel>

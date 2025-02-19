@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Thomson-Minimal Hugo Portfolio Temaplate</title>
-    <link>http://localhost:1313/thomson/examplesite/tags/</link>
-    <description>Recent content in Tags on Thomson-Minimal Hugo Portfolio Temaplate</description>
+    <title>Tags on UIC Culture and Design Management Major</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on UIC Culture and Design Management Major</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/thomson/examplesite/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agency</title>
-      <link>http://localhost:1313/thomson/examplesite/tags/agency/</link>
+      <link>//localhost:1313/tags/agency/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/tags/agency/</guid>
+      <guid>//localhost:1313/tags/agency/</guid>
       <description></description>
     </item>
     <item>
       <title>Creative</title>
-      <link>http://localhost:1313/thomson/examplesite/tags/creative/</link>
+      <link>//localhost:1313/tags/creative/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/tags/creative/</guid>
+      <guid>//localhost:1313/tags/creative/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
-      <link>http://localhost:1313/thomson/examplesite/tags/design/</link>
+      <link>//localhost:1313/tags/design/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/tags/design/</guid>
+      <guid>//localhost:1313/tags/design/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>http://localhost:1313/thomson/examplesite/tags/development/</link>
+      <link>//localhost:1313/tags/development/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/tags/development/</guid>
+      <guid>//localhost:1313/tags/development/</guid>
       <description></description>
     </item>
     <item>
       <title>New</title>
-      <link>http://localhost:1313/thomson/examplesite/tags/new/</link>
+      <link>//localhost:1313/tags/new/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/tags/new/</guid>
+      <guid>//localhost:1313/tags/new/</guid>
       <description></description>
     </item>
     <item>
       <title>SEO</title>
-      <link>http://localhost:1313/thomson/examplesite/tags/seo/</link>
+      <link>//localhost:1313/tags/seo/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>http://localhost:1313/thomson/examplesite/tags/seo/</guid>
+      <guid>//localhost:1313/tags/seo/</guid>
       <description></description>
     </item>
   </channel>
