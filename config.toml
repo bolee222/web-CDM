@@ -108,7 +108,7 @@ url = "#/"
 weight = 3
 
 [[menu.main]]
-name = "CDM Show"
+name = "Show"
 url = "portfolio/"
 weight = 4
 

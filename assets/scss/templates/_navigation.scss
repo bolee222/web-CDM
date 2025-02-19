@@ -18,8 +18,8 @@
 }
 
 .navbar-brand img {
-    max-height: 40px; /* 원하는 크기로 조절 */
-    width: auto; /* 비율 유지 */
+    max-height: 50px; /* 원하는 크기로 조절 */
+    //width: auto; /* 비율 유지 */
 }
 
 .navbar-nav .nav-link {
@@ -38,7 +38,7 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: -3px;
+    bottom: 0px;
     width: 0;
     height: 2px;
     background-color: $primary-color;
