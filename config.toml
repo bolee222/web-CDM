@@ -122,22 +122,6 @@ name = "FAQ"
 url = "faq/"
 weight = 6
 
-[[menu.main]]
-name = "Dropdown"
-url = "#/"
-weight = 6
-
-[[menu.main]]
-parent = "Dropdown"
-name = "Child 1"
-url = "#/"
-weight = 1
-
-[[menu.main]]
-parent = "Dropdown"
-name = "Child 2"
-url = "#/"
-weight = 2
 
 
 # default parameters
