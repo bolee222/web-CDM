@@ -109,12 +109,12 @@ weight = 3
 
 [[menu.main]]
 name = "CDM Show"
-url = "show/"
+url = "portfolio/"
 weight = 4
 
 [[menu.main]]
 name = "News"
-url = "news/"
+url = "blog/"
 weight = 5
 
 [[menu.main]]
