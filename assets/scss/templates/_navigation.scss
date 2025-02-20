@@ -56,12 +56,15 @@
 
 
 ul.dropdown-menu {
-    background: rgba(21,21,21,1);
+    background: rgba(255, 255, 255, 0.8); /* Light transparent white */
+    backdrop-filter: blur(10px); /* Optional: Adds a subtle blur effect */
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
 }
 ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
+    color: #333 !important; /* Darken text for contrast */
+
     font-size: 12px;
     line-height: 22px;
     display: block;
@@ -73,7 +76,6 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #27243e;
-    color: $white;
     text-transform: none;
 
     &:hover{

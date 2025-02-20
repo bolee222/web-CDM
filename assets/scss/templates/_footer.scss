@@ -1,11 +1,21 @@
 .footer{
-	padding: 60px 0px;
-	background: $black;
+	margin-top: 100px; /* Push footer to the bottom when content is short */
+	padding: 0x 0px;
+	background: #ff4b1a;
+	text-align: center;
+	color: #fff !important; /* Ensure text is readable */
 }
+
+.footer p {
+    font-size: 14px;
+    margin: 0;
+	color: #fff !important; /* Ensure text is readable */
+}
+
 .footer-widget{
 
 	a{
-		color: rgba(255,255,255,.5);
+		color: rgba(255, 255, 255, 0.938);
 		text-transform: capitalize;
 		&:hover{
 			color: $primary-color;
@@ -13,3 +23,12 @@
 	}
 }
 	
+
+.small-footer {
+    padding: 20px 0; /* Reduce height further */
+}
+
+/* Remove unwanted padding/margin below the footer */
+.footer::after {
+    display: none;
+}

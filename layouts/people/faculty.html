@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <div class="container faculty-container">
+    <h1 class="faculty-title">{{ .Title }}</h1>
+    <p class="faculty-description">{{ .Description }}</p>
+    <div class="faculty-list">
+      {{ range .Params.faculty }}
+        <div class="faculty-member">
+          <!-- Faculty Photo -->
+          <div class="faculty-photo">
+            <img src="{{ .photo }}" alt="{{ .name_en }}">
+          </div>
+
+          <!-- Faculty Information -->
+          <div class="faculty-info">
+            <p class="faculty-position">{{ .position }}</p>
+            <h2 class="faculty-name">{{ .name_en }} <span class="faculty-name-kr">{{ .name_kr }}</span></h2>
+
+            <div class="faculty-email">{{ .email | markdownify }}</div>
+            
+            <!-- Two-Column Layout: Labels on Left, Content on Right -->
+            <div class="faculty-details">
+
+
+              <div class="label">Education</div>
+              <div class="content">{{ .education | markdownify }}</div>
+              
+              <div class="label">Work</div>
+              <div class="content">{{ .work_experience | markdownify }}</div>
+              
+              
+              <div class="label">Dear CDM,</div>
+              <div class="content">{{ .message }}</div>
+
+            </div>
+
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
