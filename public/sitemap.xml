@@ -82,6 +82,8 @@
   </url><url>
     <loc>//localhost:1313/portfolio/portfolio/</loc>
   </url><url>
+    <loc>//localhost:1313/people/students/</loc>
+  </url><url>
     <loc>//localhost:1313/portfolio/web-app/</loc>
   </url>
 </urlset>

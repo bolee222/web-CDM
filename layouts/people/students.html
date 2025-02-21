@@ -1,0 +1,51 @@
+{{ define "main" }}
+  <div class="container students-container">
+    <h1 class="students-title">{{ .Title }}</h1>
+    <p class="students-description">{{ .Description }}</p>
+
+    <!-- Year Navigation Tabs -->
+    <div class="students-tabs">
+      {{ range $year, $students := .Params.students }}
+        <button class="students-tab" onclick="showStudents('{{ $year }}')">{{ $year }}</button>
+      {{ end }}
+    </div>
+
+    <!-- Student List -->
+    <div class="students-list">
+        {{ range $year, $students := .Params.students }}
+          <div class="students-year" id="year-{{ $year }}">
+            <div class="students-grid">
+              {{ range $students }}
+                <div class="student-card">
+                  <div class="student-photo">
+                    <img src="{{ .photo }}" alt="{{ .name_en }}">
+                  </div>
+                  <div class="student-info">
+                    <h2 class="student-name">{{ .name_en }} <span class="student-name-kr">{{ .name_kr }}</span></h2>
+                    <p class="student-contact">
+                      <a href="mailto:{{ .email }}">{{ .email }}</a> |
+                      <a href="{{ .website }}" target="_blank">{{ .website }}</a>
+                    </p>
+                    <p class="student-reason">{{ .reason }}</p>
+                  </div>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+      
+
+  <!-- Tab Switcher Script -->
+  <script>
+    function showStudents(year) {
+      document.querySelectorAll(".students-year").forEach(div => div.style.display = "none");
+      document.getElementById("year-" + year).style.display = "block";
+    }
+    
+    // Auto-display first year's students on load
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelector(".students-tab").click();
+    });
+  </script>
+{{ end }}
