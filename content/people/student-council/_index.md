@@ -14,7 +14,7 @@ council:
 
   - year: "2024"
     name: "CANVAS"
-    logo: "/images/people/council/2024/logo.png"
+    logo: "/images/people/council/2024/logo.jpg"
     president: "Hyemin Park"
     vice_president: "Seoyeong"
     members:
