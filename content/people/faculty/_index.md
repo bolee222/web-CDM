@@ -18,6 +18,8 @@ faculty:
     work_experience: |
       Museums  
       LG Electronics 
+    expertise: |
+      Graphic Design, Museum Studies
     message: "Message to CDM Students!"
 
   - name_en: "Bokyung Lee"
@@ -29,7 +31,6 @@ faculty:
       Veritas B **#424**  
       https://boleehci.com/  
       https://ConvergenceDesignLab.net/
-
 
     education: |
       Ph.D. & M.S. in Industrial Interaction Design, KAIST  
@@ -43,5 +44,7 @@ faculty:
       - **Office:** Veritas B #424  
       - **Homepage:** https://boleehci.com/
       - **Lab:** https://convergencedesignlab.net/
+    expertise: |
+      XR/VR/AR Convergence, UX/CX Strategy Design, Interaction Design
     message: "Message to CDM Students!"
 ---

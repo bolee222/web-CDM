@@ -20,7 +20,7 @@
 
 .faculty-email{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 10px;
@@ -29,7 +29,7 @@
 }
 
 .faculty-email a{
-    font-size: 13px;
+    font-size: 14px;
     color: #f37a34;
     text-decoration: underline;
     background: #e7e7e76c;
@@ -80,24 +80,27 @@
 
 /* Faculty Name */
 .faculty-name {
+    font-family: $roboto-font;
     font-size: 30px;
-    font-weight: 800 !important;
+    font-weight: 900 !important;
     margin-bottom: 3px;
     color:black
 }
 
 .faculty-name-kr {
     font-size: 18px;
-    font-weight: 400;
-    color: #777;
+    font-weight: 500;
+    color: #474747;
     margin-left: 6px;
 }
 
 /* Faculty Position */
 .faculty-position {
-    font-size: 15px;
+    font-family: $roboto-font;
+    font-size: 17px;
     font-weight: 400;
     color: #444;
+    margin-bottom: 20px;
 }
 
 /* Two-Column Content Layout with Top-Aligned Labels */
@@ -126,7 +129,7 @@
 .faculty-details .content {
     font-size: 14px;
     color: #444;
-    line-height: 1.5; /* Reduce line spacing */
+    line-height: 1.4; /* Reduce line spacing */
     margin-bottom: 3px;
     display: flex;
     flex-direction: column;
@@ -137,6 +140,10 @@
 .faculty-details .content p {
     margin: 0; /* Remove extra spacing */
     padding: 0;
+}
+
+.faculty-details .content strong {
+    font-weight: 800 !important;
 }
 
 /* Responsive Design */

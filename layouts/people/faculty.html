@@ -12,9 +12,9 @@
 
           <!-- Faculty Information -->
           <div class="faculty-info">
-            <p class="faculty-position">{{ .position }}</p>
-            <h2 class="faculty-name">{{ .name_en }} <span class="faculty-name-kr">{{ .name_kr }}</span></h2>
+            <div class="faculty-name">{{ .name_en }} <span class="faculty-name-kr">{{ .name_kr }}</span></div>
 
+            <div class="faculty-position">{{ .position }}</div>
             <div class="faculty-email">{{ .email | markdownify }}</div>
             
             <!-- Two-Column Layout: Labels on Left, Content on Right -->
@@ -27,8 +27,10 @@
               <div class="label">Work</div>
               <div class="content">{{ .work_experience | markdownify }}</div>
               
+              <div class="label">Area of Expertise</div>
+              <div class="content">{{ .expertise | markdownify }}</div>
               
-              <div class="label">Dear CDM,</div>
+              <div class="label">Dear CDM:</div>
               <div class="content">{{ .message }}</div>
 
             </div>

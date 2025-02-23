@@ -1,0 +1,33 @@
+---
+title: "CDM Alumni"
+type: "alumni"
+layout: "alumni"
+description: "Meet our CDM alumni and their career paths."
+alumni:
+  - name_en: "John Doe"
+    name_kr: "김철수"
+    entrance__graduation: "2014 | 2018"
+    email: "johndoe@example.com"
+    job_type: "UX Designer"
+    affiliation: "Google"
+    job_position: "Senior UX Designer"
+    why_cdm: "CDM gave me hands-on experience in design thinking and business strategy."
+
+  - name_en: "Jane Smith"
+    name_kr: "이영희"
+    entrance__graduation: "2014 | 2018"
+    email: "janesmith@example.com"
+    job_type: "Product Manager"
+    affiliation: "Samsung Electronics"
+    job_position: "Lead Product Manager"
+    why_cdm: "The interdisciplinary approach helped me bridge the gap between design and technology."
+
+  - name_en: "Michael Lee"
+    name_kr: "이민수"
+    entrance__graduation: "2014 | 2018"
+    email: "michaellee@example.com"
+    job_type: "UX Designer"
+    affiliation: "Apple"
+    job_position: "UX Researcher"
+    why_cdm: "CDM's strong focus on human-computer interaction shaped my research career."
+---

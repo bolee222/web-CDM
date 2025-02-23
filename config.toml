@@ -92,14 +92,14 @@ weight = 2
 
 [[menu.main]]
 parent = "People"
-name = "people/student-council"
-url = "#/"
+name = "Student council"
+url = "people/student-council"
 weight = 3
 
 [[menu.main]]
 parent = "People"
 name = "Alumni"
-url = "#/"
+url = "people/alumni"
 weight = 4
 
 [[menu.main]]

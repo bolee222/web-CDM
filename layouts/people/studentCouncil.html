@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <div class="container student-council-container">
+    <h1 class="student-council-title">{{ .Title }}</h1>
+    <p class="student-council-description">{{ .Description }}</p>
+    
+    <div class="student-council-list">
+      {{ range .Params.council }}
+        <div class="student-council-card">
+          
+          <!-- CDM Logo Instead of Photos -->
+          <div class="student-council-logo">
+            <img src="{{ .logo }}" alt="CDM Logo for {{ .year }}">
+          </div>
+
+          <!-- Council Information -->
+          <div class="student-council-info">
+            <div class="student-council-year">{{ .year }}</div>
+            <h2 class="student-council-name">{{ .name }}</h2>
+
+            <!-- Two-Column Layout: Labels on Left, Content on Right -->
+            <div class="student-council-details">
+
+              <div class="label">President</div>
+              <div class="content">{{ .president }}</div>
+              
+              <div class="label">Vice President</div>
+              <div class="content">{{ .vice_president }}</div>
+
+              <div class="label">Student Members</div>
+              <div class="content">{{ .members }}</div>
+
+              
+              <div class="label">Vision</div>
+              <div class="content">{{ .vision }}</div>
+
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

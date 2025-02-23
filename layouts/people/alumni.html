@@ -1,0 +1,52 @@
+{{ define "main" }}
+  <div class="container alumni-container">
+    <h1 class="alumni-title">{{ .Title }}</h1>
+    <p class="alumni-description">{{ .Description }}</p>
+
+    <!-- Collect unique job types -->
+    {{ $jobTypes := slice }}
+    {{ range .Params.alumni }}
+      {{ if not (in $jobTypes .job_type) }}
+        {{ $jobTypes = $jobTypes | append .job_type }}
+      {{ end }}
+    {{ end }}
+
+    <!-- Loop through each job type -->
+    {{ range $jobType := $jobTypes }}
+      <div class="job-type-section">
+        <div class="job-type-title">{{ $jobType }}</div>
+
+        <div class="alumni-list">
+          {{ range $.Params.alumni }}
+            {{ if eq .job_type $jobType }}
+              <div class="alumni-card">
+                <div class="alumni-info">
+                  <div class="alumni-name">{{ .name_en }} <span class="alumni-name-kr">{{ .name_kr }}</span></div>
+
+                  <div class="alumni-details">
+                    <div class="label">Affiliation</div>
+                    <div class="content affiliation-title">{{ .affiliation }}</div>
+
+                    <div class="label">Job Position</div>
+                    <div class="content job-title">{{ .job_position }}</div>
+
+                    <div class="label">Entrance | Graduation</div>
+                    <div class="content">{{ .entrance__graduation }}</div>
+
+                    <div class="label">Email</div>
+                    <div class="content"><a href="mailto:{{ .email }}">{{ .email }}</a></div>
+
+                    
+
+                    <div class="label">Why CDM?</div>
+                    <div class="content">{{ .why_cdm }}</div>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

@@ -72,6 +72,10 @@
   </url><url>
     <loc>//localhost:1313/portfolio/business/</loc>
   </url><url>
+    <loc>//localhost:1313/people/alumni/</loc>
+  </url><url>
+    <loc>//localhost:1313/people/student-council/</loc>
+  </url><url>
     <loc>//localhost:1313/people/faculty/</loc>
   </url><url>
     <loc>//localhost:1313/portfolio/modern-web/</loc>
