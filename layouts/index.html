@@ -7,15 +7,16 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10">
-        <h2 class="cd-headline clip is-full-width mb-4 ">
-          {{ .title | markdownify }} <br>
-          <span class="cd-words-wrapper text-color">
+        <div class="home_title cd-headline clip is-full-width mb-4 ">
+          {{ .title | markdownify }} 
+          <span class="home_title_sub">enables you to plan, design, and manage</span> <br>
+          <span class="home_animated cd-words-wrapper text-color">
             {{ range $index, $element:= .animated_text }}
             <b {{ if eq $index 0 }} class="is-visible" {{ end }}>{{ . | markdownify }}</b>
             {{ end }}
           </span>
-        </h2>
-        <p>{{ .content | markdownify }}</p>
+        </div>
+        <p class="home_p">{{ .content | markdownify }}</p>
       </div>
     </div>
   </div>
@@ -81,7 +82,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <h2 class="mb-2 ">{{ .title | markdownify }}</h2>
+        <h2 class="mb-2">{{ .title | markdownify }}</h2>
         <p class="mb-5">{{ .content | markdownify }}</p>
       </div>
     </div>

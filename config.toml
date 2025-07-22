@@ -142,7 +142,7 @@ google_analitycs_id = ""
 # contact form action 
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "Copyright © Culture and Design Management Major. All Rights Reserved "
+copyright = "Copyright © Culture and Design Management Major | Yonsei University. All Rights Reserved "
 
 # preloader
 [params.preloader]

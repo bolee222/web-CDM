@@ -1,0 +1,34 @@
+/* Home Page */
+
+.home_title {
+    font-weight: 800;
+    color: rgb(31, 31, 31);
+    font-family: "Montserrat", serif;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.home_title_sub {
+    font-weight: 300;
+    font-size: 40%;
+    color: rgb(71, 71, 71);
+    //font-style: italic;
+    line-height: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.home_animated{
+    font-weight: 700 !important;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.home_p{
+    color: rgb(101, 101, 101) !important;
+    font-size: 110%;
+    font-weight: 400;
+    margin-right: 10%;
+
+    .em{
+        font-weight: 700;
+    }
+}

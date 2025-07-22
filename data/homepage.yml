@@ -1,12 +1,14 @@
 ####################### banner ########################
 banner:
   enable : true
-  title : "I provide"
+  title : "CDM"
+  title_small : "plans, designs, and manages"
   animated_text:
-    - "Design solutions."
+    - "Design Solutions."
     - "Creative Ideas."
-    - "Professional Content."
-  content : "I must explain to you how all this mistaken idea of denouncing pleasure and praising pain <br>was born and I will give you a complete account of the system"
+    - "Business Initiatives."
+    - "Art & Cultural Programs."
+  content : "CDM is an **interdisciplinary major** that blends culture, design, and management. Our major trains students to plan, evaluate, and manage design solutions **not only from a user-centered perspective**, but also from **customer-driven and market-driven perspectives—blending _psychological_, _marketing_, _branding_, _aesthetic_, and _economic_ perspectives**. It fosters creative leaders who can drive innovation in various industries through design thinking and strategic vision. Students engage in hands-on, project-based learning that emphasizes international collaboration."
 
 ###################### Portfolio ######################
 portfolio:
